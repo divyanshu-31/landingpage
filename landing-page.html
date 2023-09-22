@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing Page</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+  <link rel="stylesheet" href="landing-page.css">
+
+
+</head>
+
+<body>
+  <div class="upper-background d-flex flex-column">
+
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid" ;>
+          <a class="navbar-brand" href="#">
+            <img src="nexsafar_copy-removebg-preview-newly.png" alt="Nexsafar" width="300" height="79">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapsing navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+
+    <!-- text-welcom -->
+    <div class="row">
+      <h1
+        class="text-center text-uppercase fw-bold bg-transparent text-sm-size-3 text-md-size-4 text-lg-size-5 text-xl-size-6"
+        style="font-family:Audiowide, sans-serif;">Explore with us
+      </h1>
+    </div>
+    <div class="row">
+
+    </div>
+
+    <!-- ballon -->
+    <div class="row">
+      <div class="col-xl-7 text-right">
+        <div class=" balloon position-absolute col-lg-1">
+          <img src="hot air ballon png.png" alt="">
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- login form -->
+
+
+
+
+    <div class="row ">
+      <div id="sign-in-container" class="container " style=" width: 70%;">
+        <div class="row justify-content-center ">
+          <div id="log-in-container" class="col-md-6  pre-position">
+            <div id="signinback" class="card mt-5 "
+              style="background-color:transparent; box-shadow:0px 0px 20px rgba(0, 0, 0, 0.3);">
+              <div class="card-header">
+                Log In
+              </div>
+              <div class="card-body ">
+                <form>
+                  <div class="form-group">
+                    <label for="email">
+                      Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email"
+                      style="background-color: transparent;">
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Password </label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter your password"
+                      style="background-color: transparent;">
+                  </div>
+                  <button style=" background-color: rgba(128, 128, 128, 0.5); height: 30px margin-top
+                            1px;" type="submit" class="btn  btn-block "><a style="color: black;">Log In</a></button>
+                  <a id="forgot-password" style="margin-left: 60px; margin-top: 15px;color:navy;" href="#">Forgot
+                    Password</a>
+
+                </form>
+                <div class="d-flex justify-content-center mt-4">
+                  <div class="card text-white bg-transparent"
+                    style="width: max-content; border: none; border-radius: 10px;">
+                    <div class="card-body text-center">
+                      <p class="mb-0 text-black">Don't have an account?</p>
+                      <a id="Sign-up-page-transition" class=" mt-2" href="#" style="text-decoration: none;">Sign Up</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- signUp page -->
+
+    <div class="row ">
+      <div id="sign-in-container" class="container " style=" width: 70%;">
+        <div class="row justify-content-center ">
+          <div id="signin-in-container" class="col-md-6  pre-position">
+            <div id="signinback" class="card mt-5 "
+              style="background-color:transparent; box-shadow:0px 0px 20px rgba(0, 0, 0, 0.3);">
+              <div class="card-header">
+                Sign In
+              </div>
+              <div class="card-body ">
+                <form>
+                  <div class="form-group">
+                    <label for="email">
+                      Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email"
+                      style="background-color: transparent;">
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Password </label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter your password"
+                      style="background-color: transparent;">
+                  </div>
+                  <button id="SignIn-button" style=" background-color: rgba(128, 128, 128, 0.5); height: 30px margin-top
+                          1px;" type="submit" class="btn  btn-block "><a style="color: black;">Sign In</a></button>
+
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="container mt-5 col-lg-10 " style="position:fixed; top:450px; display:flex; justify-content: end;">
+      <button id="button-for-login" class="glow-outline-btn" style="font-weight: bold;">Get Started</button>
+
+<script src="landing-page.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  
+}
+.upper-background{
+    margin: 0px;
+    padding: 0px;
+    height: 800px;
+    background-image: url(finnnaaaaallllllll\ landing\ page\(1\)\ with\ important\ elements_waifu2x_photo_noise3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -110px;
+}
+.middle{
+    height: 100px;
+    background-image: url(anusha\ vali\ image.perfect\ size\ bottom.png);
+    background-size: cover;
+    
+}
+.balloon{
+   animation-name:balloon-animation ;
+   animation-duration: 15s;
+   animation-iteration-count: infinite;
+   animation-fill-mode: both;
+   
+   
+
+   
+    
+}
+@keyframes balloon-animation {
+    0%{  position: absolute;
+        bottom: -10px;
+        
+    }
+    100%{
+        position: absolute;
+        bottom: 550px;
+    }
+
+}
+.signinback{
+    background-color: transparent;
+}
+.pre-position{
+    display: block;
+    background-color: transparent;
+    position: absolute;
+   top: -1000px;
+}
+
+.sign-in-row{
+    background-color: transparent;
+    animation-name: log-in-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    top: 10px;
+    
+}@keyframes log-in-animation{
+    from{
+       position: relative;
+        right: -800px;
+        
+        
+    }
+    to{
+        position: relative;
+       right: 0px;
+
+    
+    }
+}
+
+
+
+/* Glowing Button */
+
+
+.glow-outline-btn {
+    background-color: transparent;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    border-radius: 4px;
+  }
+
+  .glow-outline-btn::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -1;
+    border: 2px solid black;
+    border-radius: 5px;
+    animation: glow 1s infinite alternate;
+  }
+
+  @keyframes glow {
+    0% {
+      opacity: 0.5;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0.5;
+      transform: scale(1.03);
+    }
+  }
+
+  /* Optional: Change button color */
+  .glow-outline-btn:hover {
+    border-color: black;
+    color: navy;
+  }
+
+
+
+
+
+
+
+
+
+
